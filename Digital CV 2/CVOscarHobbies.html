@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+
+        <head>
+             <title>Hobbies Oscar</title>
+             <meta charset="utf-8">
+             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+             <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+    
+        </head>
+    
+    
+    <body>
+     
+           <div class="container">
+               <h1 class="text-center"><strong><u><em>Sports - Hobbies</em></u></strong></h1> 
+               
+                  <div class="holder">
+                      <ul>
+                          <blockquote><li><h3><strong> Occasionally play American Football.</strong></h3><br><iframe 
+                              width="250" height="150" src="https://www.youtube.com/embed/8O2ReoZyVDQ" frameborder="0"                                       allowfullscreen></iframe></li></blockquote>
+                          
+                          <blockquote><li><h3><strong> Watch Movies.</strong></h3><br><iframe 
+                              width="250" height="150" src="https://www.youtube.com/embed/0699hfeGwXk" frameborder="0" 
+                              allowfullscreen></iframe></li></blockquote>
+                          
+                          <blockquote><li><h3><strong> As much as possible, travel to know my country.</strong></h3><br><iframe 
+                              width="250" height="150" src="https://www.youtube.com/embed/6A8hPD5zJyw" frameborder="0" 
+                              allowfullscreen></iframe></li></blockquote>
+                      </ul>
+                  </div>
+               
+           </div>
+    
+   
+    
+    
+    
+    
+        <script>
+        
+        var theme=prompt('What is your favorite color among these (blue, brown, red)');
+           
+         
+          if(theme!='blue' && theme!='brown' && theme!='red'){
+      
+              var isnt_theme_valid=true;
+        
+                  while(isnt_theme_valid){
+              
+                     var theme=prompt('What is your favorite color among these (blue, brown, red)');
+           
+                        if(theme==='blue' || theme==='brown' || theme==='red'){
+                  
+                            isnt_theme_valid=false;} 
+                   }
+           }
+        
+        console.log(theme);
+      
+      if(theme ==='blue'){
+          $('body').css('background-color','#a08ef8')
+         }
+          
+          
+      if(theme === 'brown'){
+          $('body').css('background-color','#AE9881')
+         }
+          
+      
+      if(theme ==='red'){
+          $('body').css('background-color','#fc7c7c')
+         }
+        
+        
+        </script>
+    
+    </body>
+
+</html>

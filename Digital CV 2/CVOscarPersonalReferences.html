@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+
+        <head>
+             <title>Personal References Oscar</title>
+             <meta charset="utf-8">
+             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+             <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+    
+        </head>
+    
+    
+    <body>
+        
+        <div class="container">
+     
+            <h1 class="text-center"><strong><u><em>Personal References</em></u></strong></h1><br><br><br>
+            
+               <div class="row">
+                   
+                   <div class="col-md-4 col-md-offset-4">
+                       <div class="text-center">
+                           <button id="button_Rob" type="button" class="btn btn-primary btn-lg btn-block">Roberto Rodriguez                                        Arellano</button>
+                           <div id="Info_Rob">
+                                              Cousin, Mexico D.F.<br>
+                                              Employee<br>
+                                              Phone Number:01(55)2159-4275</div>
+                           
+                       </div>
+                   </div>
+                   <br>
+                   <br>
+                   <br>
+                   <br>
+                   <br>
+                   <div class="col-md-4 col-md-offset-4">
+                       <div class="text-center">
+                           <button id="button_Isa" type="button" class="btn btn-default btn-lg btn-block">Isaac Mercado                                            Arteaga</button>
+                           <div id="Info_Isa">
+                                              Friend, Mexico D.F.<br>
+                                              Trader<br> 
+                                              Phone Number:01(55)5530-2625</div>
+                       </div>
+                   </div>
+                   
+            
+               </div>
+            
+             
+        
+        </div>
+        
+        <script>
+        
+        var theme=prompt('What is your favorite color among these (purple, gray, blue)');
+           
+         
+          if(theme!='purple' && theme!='gray' && theme!='blue'){
+      
+              var isnt_theme_valid=true;
+        
+                  while(isnt_theme_valid){
+              
+                     var theme=prompt('What is your favorite color among these (purple, gray, blue)');
+           
+                        if(theme==='purple' || theme==='gray' || theme==='blue'){
+                  
+                            isnt_theme_valid=false;} 
+                   }
+           }
+        
+        console.log(theme);
+      
+      if(theme ==='purple'){
+          $('body').css('background-color','#D678B3')
+         }
+          
+          
+      if(theme === 'gray'){
+          $('body').css('background-color','#BDBDBD')
+         }
+          
+      
+      if(theme ==='blue'){
+          $('body').css('background-color','#a08ef8')
+         }
+            
+           $("#Info_Rob").hide()
+           $("#Info_Isa").hide()
+            
+            $('#button_Rob' ).click(function() 
+                 {if ( $( "#Info_Rob" ).is( ":hidden" ) ) {$( "#Info_Rob" ).slideToggle( "slow" );} 
+                   else {$( "#Info_Rob" ).slideUp('slow');}});
+            
+            
+            $('#button_Isa' ).click(function() 
+                 {if ( $( "#Info_Isa" ).is( ":hidden" ) ) {$( "#Info_Isa" ).slideToggle( "slow" );} 
+                   else {$( "#Info_Isa" ).slideUp('slow');}});
+        
+        </script>
+        
+    </body>
+
+</html>

@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+
+        <head>
+             <title>Work Experience Oscar</title>
+             <meta charset="utf-8">
+             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+             <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+    
+        </head>
+    
+    
+    <body>
+        
+         <div class="container">
+     
+             <h1 class="text-center"><strong><u><em>Jobs</em></u></strong></h1>
+             <br>
+             <br>
+        
+             <p class="text-center"><button id="banorte" type="button" class="btn btn-info btn-lg">BANCO MERCANTIL DEL NORTE SA INSTITUCION DE BANCA MULTIPLE GRUPO FINANCIERO BANORTE</button></p><br><br>
+  
+
+             <div id="info_banorte">
+             <p><strong>BANCO MERCANTIL DEL NORTE SA INSTITUCION DE BANCA MULTIPLE GRUPO FINANCIERO BANORTE</strong></p>
+             <p><strong>Period:</strong> Apr.2008 - Sep.2015</p> 
+             <p><strong>Zone:</strong> Mexico, D.F.</p>
+             <p><strong>Position:</strong></p> 
+                     <ul>
+                        <li> Deputy Director of Bank Branch</li>
+                        <li> Account Executive Jr.</li>
+                        <li> Chief Cashier</li>
+                        <li> Cashier of Services</li>
+                        <li> Mixed Cashier</li>
+                     </ul>
+        
+             <h5><strong>Activities Performed</strong><h5>
+            
+        <p>Organization and administration of branches, as well as promotion, placement, operation and advice of financial products. Mainly whit customer high level, (products of deposit, investment, credit, technology and insuranse among others.) I was also part of the team of civil protection of the institution.<br>In de first position of de banking career, adminstration, storage, inventoried, safekeeping and control high amounts of money, national and foreigner. Also metal coins, security papers and other bank items.</p></div>
+                 
+                 
+                 
+         <p class="text-center"><button id="lobo" type="button" class="btn btn-info btn-lg">SERVICIOS DE PROTECCION PRIVADA LOBO SA DE CV</button></p><br><br>
+             
+                 <div id="info_lobo">
+                 <p><strong>SERVICIOS DE PROTECCION PRIVADA LOBO SA DE CV</strong></p>
+                 <p><strong>Period: </strong> Oct.2005 - Dec.2007</p> 
+                 <p><strong>Zone: </strong> Mexico, D.F.</p>
+                 <p><strong>Position: </strong></p>
+                      <ul>
+                          <li> Staff Supervisor</li>
+                      </ul>
+                 
+                     <h5><strong>Activities Performed</strong></h5>
+            
+         <p>Supervision of personnel that controls access to public at entertainment events, in property as National Auditorium, Sport's Palace, Forum Sun, Brothers Rodriguez's Racetrack, Azteca Stadium, Americas's Hippodrome, etc.</p></div>
+            
+            <p class="text-center"><button id="val" type="button" class="btn btn-info btn-lg">VAL PARKING MARIN SA DE CV</button></p><br><br>
+                 <div id="info_val">            
+                 <p><strong>VAL PARKING MARIN SA DE CV</strong></p>
+                 <p><strong>Period: </strong> Apr.2005 - Oct.2005 </p>
+                 <p><strong>Zone: </strong> Mexico, D.F.</p>
+                 <p><strong>Position: </strong></p>
+                      <ul>
+                          <li> In charge</li>
+                      </ul>
+             
+            
+         <h5><strong>Activities Performed<strong><h5>
+             
+             <p>Organization and administration of parking in corporate buildings and staff.</p></div>
+             <br>
+             <br>
+             <br>
+             
+         
+             
+             <h2><strong>Employment References</strong></h2><br>
+             
+                <table class="table table-bordered">
+                    <thead>
+                        <th class="text-center"><em>NAME</em></th>
+                          <th class="text-center"><em>COMPANY</em></th>
+                          <th class="text-center"><em>POSITION</em></th>
+                          <th class="text-center"><em>LOCATION</em></th>
+                          <th class="text-center"><em>PHONE NUMBER</em></th>  
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Luis Antonio Xochicale</td>
+                            <td>Banco Mercantil del Norte Sa.</td>
+                            <td>Bank Branch's Director</td>
+                            <td>Mexico, D.F.</td>
+                            <td>01 (55) 5281-4215</td>
+                        </tr>
+                        <tr>
+                            <td>Cinthya Castillo</td>
+                            <td>Servicios de Proteccion Privada Lobo Sa. de Cv.</td>
+                            <td>HHRR.</td>
+                            <td>Mexico, D.F.</td>
+                            <td>01 (55) 5803-0390</td>
+                        </tr>
+                        <tr>
+                            <td>Eduardo Marin</td>
+                            <td>Val Parking Marin Sa. de Cv.</td>
+                            <td>Owner</td>
+                            <td>Mexico, D.F.</td>
+                            <td>01 (55) 5211-1010</td>
+                        </tr>
+                    </tbody>
+  
+
+                </table>
+    
+             </div>
+        
+        <script>
+            
+        var theme=prompt('What is your favorite color among these (white, aqua, blue)');
+           
+         
+          if(theme!='white' && theme!='aqua' && theme!='blue'){
+      
+              var isnt_theme_valid=true;
+        
+                  while(isnt_theme_valid){
+              
+                     var theme=prompt('What is your favorite color among these (white, aqua, blue)');
+           
+                        if(theme==='pink' || theme==='aqua' || theme==='green'){
+                  
+                            isnt_theme_valid=false;} 
+                   }
+           }
+        
+        console.log(theme);
+      
+      if(theme ==='white'){
+          $('body').css('background-color','FA74D4')
+         }
+          
+          
+      if(theme === 'aqua'){
+          $('body').css('background-color','#E7FCFB')
+         }
+          
+      
+      if(theme ==='blue'){
+          $('body').css('background-color','#B4B9FD')
+         }
+            
+$("#info_banorte").hide()
+$('#banorte' ).click(function() {if ( $( "#info_banorte" ).is( ":hidden" ) ) {$( "#info_banorte" ).slideToggle(   "slow" );} else {$( "#info_banorte" ).slideUp('slow');}});
+            
+$("#info_lobo").hide()
+$('#lobo' ).click(function() {if ( $( "#info_lobo" ).is( ":hidden" ) ) {$( "#info_lobo" ).slideToggle(   "slow" );} else {$( "#info_lobo" ).slideUp('slow');}});
+            
+$("#info_val").hide()
+$('#val' ).click(function() {if ( $( "#info_val" ).is( ":hidden" ) ) {$( "#info_val" ).slideToggle(   "slow" );} else {$( "#info_val" ).slideUp('slow');}});
+                     
+        </script>
+    
+    </body>
+
+</html>
