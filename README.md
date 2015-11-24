@@ -1,27 +1,27 @@
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+## CV Oscar
 
+Hi there! Welcome to my CV!
 
-Hi there! Welcome to Cloud9 IDE!
+My name is Oscar Sanchez Vilchis and I am twenty eight.
 
-To get you started, we included a small hello world application.
+I have in my CV information like...
 
-1) Open the hello-world.html file
+1) Academic Studies.
 
-2) Click on the Preview button to open a live preview pane
+2) Jobs.
 
-3) Make some changes to the file, save, watch the preview, and have fun!
+3) Employment References.
 
-Happy coding!
-The Cloud9 IDE team
+4) Personal References.
 
+5) Aditional Trainings
 
-## Support & Documentation
+6) Hobbies.
 
-Visit http://docs.c9.io for documentation, or http://support.c9.io for support.
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+Visit https://github.com/VilchisCorp1987/Web-CV-Oscar so you can see it.
+
 # Web-CV-Oscar
+
+See you soon!!
+
+Bye, Bye.
