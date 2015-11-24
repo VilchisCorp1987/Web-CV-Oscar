@@ -1,0 +1,95 @@
+<html>
+
+    
+    <head>
+        <title>ejercicio2HTML</title>
+        <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+    </head>
+
+    
+    <body>
+      <div id="everything">
+      <h1>A heading!</h1>
+          
+      <img/>
+          
+      <p>Here's some text!</p>
+      <p>Here's a second set of text!</p>
+      <div class="holder">
+          <ul>
+              <li>List Item 1</li>
+              <li>List Item 2</li>
+              <li>List Item 3</li>
+          </ul>
+      </div>
+      <div class="holder efecto">
+          <ul>
+              <li>List Item 1</li>
+              <li>List Item 2</li>
+              <li>List Item 3</li>
+          </ul>
+      </div>    
+      <div class="holder">
+          <ol>
+              <li>List Item 4</li>
+              <li>List Item 5</li>
+              <li>List Item 6</li>
+          </ol>
+      </div>
+      <div id="change-me">This part needs to change!</div>
+      <div id="secret">We should hide this!</div>
+  </div>
+  <script>
+      
+      
+      
+      var theme=prompt('give me a valid color (red, blue, green)');
+      console.log(theme + '13')
+               
+            
+      
+      if(theme!='red' && theme!='blue' && theme!='green'){
+      
+        var isnt_theme_valid=true;
+        
+          while(isnt_theme_valid){
+              
+              var theme=prompt('give me a valid color (red, blue, green)');
+           
+              if(theme==='red' || theme==='blue' || theme==='green'){
+               isnt_theme_valid=false;} 
+          }
+      }
+      
+      console.log(theme);
+      
+      if(theme ==='red'){
+          $('body').css('background-color','fc7c7c')
+          $('h1').css('font-size','50px')
+          $('h1').css('color','fa0101')
+          $('img').attr('src','http://www.fondosya.com/wallpapers/carro_rojo_ultimo_modelo-1600x1200.jpg')
+          $('img').css('width','300px')}
+          
+      if(theme === 'blue'){
+          $('body').css('background-color','a08ef8')
+          $('.holder').css('color','1408f7')
+          $('.holder').css('font-size','25px')}
+          
+      
+      if(theme ==='green'){
+          $('body').css('background-color','589854')
+          $('h1').css('color','0f4a0c')
+          $('#secret').css('font-size','30px')
+          $('img').attr('src','http://www.fondosya.com/wallpapers/carro_volkswagen_verde-1280x800.jpg')
+          $('img').css('width','300px')}
+      
+      
+         
+         
+         
+      
+      
+      
+  </script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<html>
+
+    
+    <head>
+        <title>HTML Document</title>
+        <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+    </head>
+
+    
+    <body>
+      <div id="everything">
+      <h1>A heading!</h1>
+          
+          <div id="clickme">has click "aqui mero!!"</div>
+          <img id="moto"src="http://www.blogys.net/UserFiles/Image/motor/2007/motos/ktm/rc8/moto.jpg" width="250px">
+              
+      <p>Here's some text!</p>
+      <p>Here's a second set of text!</p>
+      <div class="holder">
+          <ul>
+              <li>List Item 1</li>
+              <li>List Item 2</li>
+              <li>List Item 3</li>
+          </ul>
+      </div>
+      <div class="holder efecto">
+          <ul>
+              <li>List Item 1</li>
+              <li>List Item 2</li>
+              <li>List Item 3</li>
+          </ul>
+      </div>    
+      <div class="holder">
+          <ol>
+              <li>List Item 4</li>
+              <li>List Item 5</li>
+              <li>List Item 6</li>
+          </ol>
+      </div>
+      <div id="change-me">This part needs to change!</div>
+      <div id="secret">We should hide this!</div>
+  </div>
+        
+        
+  <script> 
+         
+   $('h1').css('color','blue');  
+   $('body').css('background-color','fc7c7c');
+   $('#everything').css('font-size','300%');
+   $('.holder').css('border','3px solid black');
+   $('.efecto ul li').css('font-weight','bold');  
+   $('h1 + p').css('color','green');
+   $('#secret').css('display','block');
+   $('#change-me').text('changed! ');
+   $('#change-me').append('more text!');   
+   $('#change-me').html('<p>parrafo 1</p><hr><p>parrafo 2</p><hr>');  
+   $('#change-me').append('<p>parrafo 3, uno mas..!</p><hr>');
+   $('li').text('nueva sentencia ');
+   $('li').append('nuevo texto') 
+   $('#everything').append('<ol><li>item x</li><li>item y</li><li>item z</li></ol>');
+      
+   $('#clickme' ).click(function() 
+       {if ( $( "#moto" ).is( ":hidden" ) ) {$( "#moto" ).slideToggle( "slow" );} 
+        else {$( "#moto" ).slideUp('slow');
+  }
+});   
+   </script>  
+      
+     
+        
+</body>
+</html>

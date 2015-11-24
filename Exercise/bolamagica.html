@@ -1,0 +1,53 @@
+<html>
+
+    
+    <head>
+        <title>Bola Magica</title>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+    
+    </head>
+
+    
+    <body>
+        
+      
+      <h1>Tu destino!</h1>
+          
+          
+          <img id="moto"src="http://cliparts.co/cliparts/rcn/KKX/rcnKKXEMi.jpg" width="250px">
+        <br>
+        
+        <input type="text" name="pregunta">
+        <button id="boton"class="btn btn-primary">preguntar</button>
+       
+        <p id="respuesta"></p>
+        
+      
+      
+  
+        
+        
+  <script> 
+         
+      var respuestas=["si","no","tal vez","muy pronto","despues","pregunta de nuevo"]
+      $('#boton').click(function(){
+          var num_respuesta = Math.round(Math.random()*5)
+                                                                  
+      console.log(num_respuesta)
+      $('#respuesta').text(respuestas[num_respuesta])
+                                  })
+      
+      
+      
+      
+      
+      
+  
+   </script>  
+      
+     
+        
+</body>
+</html>

@@ -1,0 +1,107 @@
+# Minimalist Markdown Editor
+
+This is the **simplest** and **slickest** Markdown editor.  
+Just write Markdown and see what it looks like as you type. And convert it to HTML in one click.
+
+## Getting started
+
+### How?
+
+Just start typing in the left panel.
+
+### Buttons you might want to use
+
+- **Quick Reference**: that's a reminder of the most basic rules of Markdown
+- **HTML | Preview**: *HTML* to see the markup generated from your Markdown text, *Preview* to see how it looks like
+
+### Most useful shortcuts
+
+- `CTRL + O` to open files
+- `CTRL + T` to open a new tab
+- `CTRL + S` to save the current file or tab
+
+### Privacy
+
+- No data is sent to any server – everything you type stays inside your application
+- The editor automatically saves what you write locally for future use.  
+  If using a public computer, close all tabs before leaving the editor
+
+
+# Este es un encabezado de 
+## Esta es una cabecera aún más pequeño 
+### Incluso más pequeño ... 
+###### Bastante pequeña
+
+Aquí es un poco de texto normal. Un párrafo, incluso!
+
+* Este texto está en cursiva. *
+
+** Este texto está en negrita. **
+
+*** Este texto está en ambos. ** *
+
+~~ Este texto se hace con tachado ~~.
+
+A veces desea incrustar algunos \ * texto estilizado \ * 
+derecha en ** el párrafo. ** Pretty cool, claro!
+
+* Tema
+ * Tema
+ * Otro elemento
+
+o
+
++ Artículo
+ + artículo
+ + Uno de los puntos más
+
+o
+
+- Artículo
+ - Artículo
+ - Un último elemento
+
+
+1. Elemento de un
+ 2. Elemento de dos
+ 3. Elemento de tres
+
+sublistas / w
+
+1. Elemento de un
+ 2. Elemento de dos
+ 3. Elemento de tres
+     1. Sub-tema 
+    2. Subtema 
+4. Punto de cuatro
+
+---
+
+[Soy un enlace a una página web!] (Http://www.google.com)
+
+![Alt text](https://i.imgur.com/81qyN1y.jpg)
+
+! [Fotográfico local] (activos / profile.png)
+
+
+
+
+
+
+---
+![Alt text](https://pbs.twimg.com/profile_images/577876720537067520/u5ec3v-D.jpeg)
+
+# Softtek 
+
+### Entrevista: `Roberto Lopez Montes de Oca` 
+
+**1.-Biografia:** Origen D.F. , Comercio, Edad 27. 
+
+**2.-Experiencia:** Programando: Ninguna.
+
+**3.-Objetivos del Curso:** Aprender a programar.
+
+**4.- Hobbies:** Escuchar música.
+
+**5.-Sitio Web Favorito:** YouTube
+
